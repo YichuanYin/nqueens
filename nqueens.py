@@ -112,7 +112,7 @@ def main (board_size):
     # Print solution messages
     print ('Total number of solutions: %i' % solution_output.SolutionCount ())
     print ('Wrote to file: ' + 'solutions_n=' + str (board_size) + '.txt')
-    print ('Solver time:', nqueens_solver.WallTime () * solution_output.SolutionCount (), 'ms')
+    print ('Solver time:', nqueens_solver.WallTime (), 'ms')
 #------------------------------------------------------------
 
 
